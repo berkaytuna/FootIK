@@ -1,0 +1,36 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "FootIK",
+	"Description": "A Skeletal Control Node for correct foot placement using IK",
+	"Category": "Other",
+	"CreatedBy": "Berkay Tuna",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/30658ca1ebb647d29973849d70efabe7",
+	"SupportURL": "",
+	"EngineVersion": "4.24.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "FootIK",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32"
+			]
+		},
+		{
+			"Name": "FootIKEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PreDefault",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32"
+			]
+		}
+	]
+}
